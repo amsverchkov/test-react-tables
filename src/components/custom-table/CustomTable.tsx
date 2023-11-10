@@ -12,8 +12,7 @@ interface IExcelStateData {
 
 type ExcelOnChangeDataType  =  {v: string | number | boolean}[][];
 
-
-type IResultFileParse  = {
+interface IResultFileParse {
     [key: string]: string | boolean | number | undefined
 }
 
